@@ -129,7 +129,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-20 gap-10 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-20 gap-10 overflow-hidden">
       {/* Particle Background */}
       {/* <div className="absolute inset-0 -z-10"> */}
       {/* </div> */}
@@ -158,7 +158,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-lg p-5 text-gray-400">
+        <p className="text-lg p-5 h-max text-gray-400">
           I build scalable APIs and optimize websites for performance and search engines.
         </p>
 
@@ -191,7 +191,7 @@ export default function Hero() {
           </motion.button>
         </div>
 
-        <div className="flex gap-4 mt-6 p-5">
+        <div className="flex gap-10 justify-center md:justify-start md:gap-4 mt-6 p-5">
           {[
             { icon: <FaGithub size={24} />, url: "https://github.com/UjjwalN15" },
             { icon: <FaLinkedin size={24} />, url: "https://www.linkedin.com/in/ujjwal-neupane-84a853234/" },
@@ -217,7 +217,7 @@ export default function Hero() {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
-        className="md:w-1/2 flex justify-center"
+        className="md:w-1/2 flex justify-center mt-[-200px] md:mt-0"
       >
         <div className="relative w-80 h-140 mt-[300px] md:w-96 md:h-full md:ml-50 md:mt-[-50px] ">
           <motion.div

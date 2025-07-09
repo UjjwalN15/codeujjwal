@@ -49,7 +49,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-10 px-6 md:px-20 mt-[120px] md:mt-[-1px]">
+    <section id="projects" className="py-10 px-6 md:px-20 mt-[20px] md:mt-[-1px]">
       <motion.h2
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
