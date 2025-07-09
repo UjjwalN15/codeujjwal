@@ -49,7 +49,16 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="pt-20 px-6 md:px-20 bg-gray-900/50">
+    <section id="projects" className="py-10 px-6 md:px-20 mt-[120px] md:mt-[-1px]">
+      <motion.h2
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="text-3xl md:text-4xl font-bold mb-10 text-center"
+            >
+              My <span className="text-red-600">Projects</span>
+            </motion.h2>
       {/* Category Filter Buttons */}
       <motion.div
         initial={{ opacity: 0 }}

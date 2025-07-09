@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="pt-20 px-6 md:px-20 mt-[120px] md:-mt-[180px]">
+    <section id="about" className="py-10 px-6 md:px-20 mt-[120px] md:-mt-[50px]">
       <motion.h2
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
