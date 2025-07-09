@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce API",
+    "shortDescription": "RESTful API for online store",
+    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "features": [
+      "JWT authentication",
+      "Stripe payment integration",
+      "Product inventory management",
+      "Order tracking system",
+      "User reviews and ratings"
+    ],
+    "image": "ecommerce.jpg",
+    "category": "backend",
+    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 2,
+    "title": "Personal Portfolio Website",
+    "shortDescription": "Responsive portfolio site",
+    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "features": [
+      "Responsive design",
+      "Project showcase",
+      "Contact form",
+      "Blog section",
+      "Dark mode toggle"
+    ],
+    "image": "portfolio.jpg",
+    "category": "frontend",
+    "tags": ["HTML", "CSS", "JavaScript", "React"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 3,
+    "title": "E-commerce API",
+    "shortDescription": "RESTful API for online store",
+    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "features": [
+      "JWT authentication",
+      "Stripe payment integration",
+      "Product inventory management",
+      "Order tracking system",
+      "User reviews and ratings"
+    ],
+    "image": "ecommerce.jpg",
+    "category": "backend",
+    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 4,
+    "title": "Personal Portfolio Website",
+    "shortDescription": "Responsive portfolio site",
+    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "features": [
+      "Responsive design",
+      "Project showcase",
+      "Contact form",
+      "Blog section",
+      "Dark mode toggle"
+    ],
+    "image": "portfolio.jpg",
+    "category": "frontend",
+    "tags": ["HTML", "CSS", "JavaScript", "React"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 5,
+    "title": "E-commerce API",
+    "shortDescription": "RESTful API for online store",
+    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "features": [
+      "JWT authentication",
+      "Stripe payment integration",
+      "Product inventory management",
+      "Order tracking system",
+      "User reviews and ratings"
+    ],
+    "image": "ecommerce.jpg",
+    "category": "backend",
+    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 6,
+    "title": "Personal Portfolio Website",
+    "shortDescription": "Responsive portfolio site",
+    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "features": [
+      "Responsive design",
+      "Project showcase",
+      "Contact form",
+      "Blog section",
+      "Dark mode toggle"
+    ],
+    "image": "portfolio.jpg",
+    "category": "frontend",
+    "tags": ["HTML", "CSS", "JavaScript", "React"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 7,
+    "title": "E-commerce API",
+    "shortDescription": "RESTful API for online store",
+    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "features": [
+      "JWT authentication",
+      "Stripe payment integration",
+      "Product inventory management",
+      "Order tracking system",
+      "User reviews and ratings"
+    ],
+    "image": "ecommerce.jpg",
+    "category": "backend",
+    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  },
+  {
+    "id": 8,
+    "title": "Personal Portfolio Website",
+    "shortDescription": "Responsive portfolio site",
+    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "features": [
+      "Responsive design",
+      "Project showcase",
+      "Contact form",
+      "Blog section",
+      "Dark mode toggle"
+    ],
+    "image": "portfolio.jpg",
+    "category": "frontend",
+    "tags": ["HTML", "CSS", "JavaScript", "React"],
+    "github": "https://github.com/yourusername/ecommerce-api",
+    "demo": "https://api.example.com/docs"
+  }
+]

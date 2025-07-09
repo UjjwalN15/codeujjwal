@@ -1,0 +1,27 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+/* Custom scrollbar */
+main {
+  padding-top: 4rem; /* matches navbar height */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
