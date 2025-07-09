@@ -123,22 +123,22 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 md:px-8">
+      <section id="about" className="py-2 px-4 md:px-8">
         <About />
       </section>
 
       {/* Experience Section */}
-      <section id="experience" className="py-20 px-4 md:px-8 bg-gray-800/50">
+      <section id="experience" className="py-2 px-4 md:px-8 bg-gray-800/50">
         <Experience />
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20 px-4 md:px-8">
+      <section id="skills" className="py-2 px-4 md:px-8">
         <Skills />
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 px-4 md:px-8 bg-gray-800/50">
+      <section id="projects" className="py-2 px-4 md:px-8 bg-gray-800/50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             My <span className="text-red-600">Projects</span>
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 md:px-8">
+      <section id="contact" className="py-2 px-4 md:px-8">
         <Contact />
       </section>
     </main>

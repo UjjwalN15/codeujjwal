@@ -219,7 +219,7 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
         className="md:w-1/2 flex justify-center"
       >
-        <div className="relative w-80 h-[140px] mt-[300px] md:w-96 md:h-full md:ml-50 md:mt-[-50px] ">
+        <div className="relative w-80 h-140 mt-[300px] md:w-96 md:h-full md:ml-50 md:mt-[-50px] ">
           <motion.div
             className="absolute inset-0 bg-red-600 rounded-t-full blur-sm opacity-5"
             animate={{
