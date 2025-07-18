@@ -1,146 +1,139 @@
 [
   {
     "id": 1,
-    "title": "E-commerce API",
-    "shortDescription": "RESTful API for online store",
-    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "title": "Backend API for Government APP",
+    "shortDescription": "RESTful API for the Government App in Python and Django Rest Framework",
+    "description": "The project cannot be highlighted due to the NDA restriction. Please contact to our Project Manager for more details. +9779846828659",
     "features": [
-      "JWT authentication",
-      "Stripe payment integration",
-      "Product inventory management",
-      "Order tracking system",
-      "User reviews and ratings"
+      "NDA Restrictions"
     ],
-    "image": "ecommerce.jpg",
+    "image": "nda.jpg",
     "category": "backend",
-    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL","Oracle"],
+    "order": 1
   },
   {
     "id": 2,
-    "title": "Personal Portfolio Website",
-    "shortDescription": "Responsive portfolio site",
-    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "title": "Vedic Healing Backend",
+    "shortDescription": "RESTful API to empower Vedic Healing in Python and Django Rest Framework",
+    "description": "A RESTful backend built with Django REST Framework to power the Vedic Healing platform, supporting user registration, content management, and secure service bookings. ",
     "features": [
-      "Responsive design",
-      "Project showcase",
-      "Contact form",
-      "Blog section",
-      "Dark mode toggle"
+      "Authentication with Djoser ",
+      "Service Booking with Dynamic Pricing",
+      "Modular API Design",
+      "Automated email alerts to the admin for every booking and contact made by user. ",
+      "Clean and Efficient Code",
+      "Internship Project. Please contact to our Project Manager for more details. +9779846828659"
     ],
-    "image": "portfolio.jpg",
-    "category": "frontend",
-    "tags": ["HTML", "CSS", "JavaScript", "React"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "image": "taskapp.jpg",
+    "category": "backend",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "demo": "https://vedichealing.com.np/",
+    "order": 2
   },
   {
     "id": 3,
-    "title": "E-commerce API",
-    "shortDescription": "RESTful API for online store",
-    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "title": "Hotel Management System ",
+    "shortDescription": "RESTful API for secure user authentication and efficient hotel and room booking management.",
+    "description": "The 'Hotel Management System' is a Django and Django Rest Framework-based project enabling secure user authentication and efficient hotel and room booking management. ",
     "features": [
-      "JWT authentication",
-      "Stripe payment integration",
-      "Product inventory management",
-      "Order tracking system",
-      "User reviews and ratings"
+      "User registration, login, logout, and OTP verification",
+      "Role Bases Permissions",
+      "booking dates are validated to ensure no past bookings. ",
+      "Email Notifications to users for booking confirmations",
+      "Private Project. Client has said not to share the code publicly."
     ],
-    "image": "ecommerce.jpg",
+    "image": "hotel1.jpg",
     "category": "backend",
-    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "order": 3
   },
   {
     "id": 4,
-    "title": "Personal Portfolio Website",
-    "shortDescription": "Responsive portfolio site",
-    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "title": "File Digitization ",
+    "shortDescription": " Django REST Framework (DRF)-based system designed to digitize and manage diverse file types with ease",
+    "description": " It supports OCR-based text extraction from formats like JPG, PDF, DOCX, PPTX, Excel, and CSV. The system ensures real-time notifications, approval workflows, and automated email alerts for timely file processing. Additionally, it creates auto-backups to enable secure file restoration after deletion.",
     "features": [
-      "Responsive design",
-      "Project showcase",
-      "Contact form",
-      "Blog section",
-      "Dark mode toggle"
+      "Real-Time Notifications",
+      "File Approval Workflow",
+      "OCR-Based Text Extraction",
+      "Automatic Backup & Restoration",
+      "Multiple File Type Supported like JPG, PDF, DOCX, PPTX, Excel, and CSV",
+      "Automated Email Alerts",
+      "Internship Project. Please contact to our Project Manager for more details. +9779846828659"
     ],
-    "image": "portfolio.jpg",
-    "category": "frontend",
-    "tags": ["HTML", "CSS", "JavaScript", "React"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "image": "filedigi1.jpg",
+    "category": "backend",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "order": 4
   },
   {
     "id": 5,
-    "title": "E-commerce API",
-    "shortDescription": "RESTful API for online store",
-    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "title": "Hospital Management System",
+    "shortDescription": "Django and Django Rest Framework-based project designed for efficient hospital and inventory management",
+    "description": "The 'Hospital Management System' is a Django and Django Rest Framework-based project designed for efficient hospital and inventory management with role-specific access.",
     "features": [
-      "JWT authentication",
-      "Stripe payment integration",
-      "Product inventory management",
-      "Order tracking system",
-      "User reviews and ratings"
+      "Role based Token Authentication",
+      "Automated email alerts to IMS Manager and Admin for stock levels below 50",
+      "Two apps: BASE (handles hospital operations) and IMS (manages inventory).",
+      "Provides full system details to the admin"
     ],
-    "image": "ecommerce.jpg",
+    "image": "hms1.jpg",
     "category": "backend",
-    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "github": "https://github.com/UjjwalN15/HMS-new",
+    "order": 5
   },
   {
     "id": 6,
-    "title": "Personal Portfolio Website",
-    "shortDescription": "Responsive portfolio site",
-    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "title": "Mummas Kitchen",
+    "shortDescription": "Mumma’s Kitchen is a dynamic food ordering platform built using Django's MVT architecture",
+    "description": " It allows users to explore dishes, submit orders, and share feedback seamlessly. The system handles both online and cash payments with proof upload support. All data submissions are processed server-side via custom POST logic. It features a responsive frontend connected to Django views and models.",
     "features": [
-      "Responsive design",
-      "Project showcase",
-      "Contact form",
-      "Blog section",
-      "Dark mode toggle"
+      "Dual Form Handling",
+      "File Upload Support",
+      "Dynamic Order Model & Total Calculation",
+      "Responsive Payment Section Switching"
     ],
-    "image": "portfolio.jpg",
-    "category": "frontend",
-    "tags": ["HTML", "CSS", "JavaScript", "React"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "image": "mmkitch3.JPG",
+    "category": "fullstack",
+    "tags": ["Python", "Django", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/UjjwalN15/Mumma-s-Kitchen",
+    "order": 6
   },
   {
     "id": 7,
-    "title": "E-commerce API",
-    "shortDescription": "RESTful API for online store",
-    "description": "A comprehensive RESTful API for an e-commerce platform with payment integration, inventory management, and user authentication systems.",
+    "title": "IMDB with JWTAuthentication",
+    "shortDescription": " Django and Django Rest Framework-based application for managing movie watchlists",
+    "description": "The 'IMDB With JWT Authentication' project is a Django and Django Rest Framework-based application for managing movie watchlists with secure JWT-based authentication.",
     "features": [
       "JWT authentication",
-      "Stripe payment integration",
-      "Product inventory management",
-      "Order tracking system",
-      "User reviews and ratings"
+      "User registration, login, logout, and OTP verification (login allowed only after OTP verification).",
+      "Role-based access for users and admins with JWT Authentication.",
+      "Movie watchlist management with CRUD operations"
     ],
-    "image": "ecommerce.jpg",
+    "image": "imdbjwt1.jpg",
     "category": "backend",
-    "tags": ["Node.js", "Express", "MongoDB", "Stripe API"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "github": "https://github.com/UjjwalN15/IMDB-wit-JWTAuthentication",
+    "order": 7
   },
   {
     "id": 8,
-    "title": "Personal Portfolio Website",
-    "shortDescription": "Responsive portfolio site",
-    "description": "A personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+    "title": "Gold Gym Website",
+    "shortDescription": "Responsive website of a gym with modern design and features",
+    "description": "Responsive website of a gym with modern design and features. It includes sections for services, trainers, testimonials, and a contact form. The website is built using HTML, CSS, and JavaScript, ensuring a smooth user experience across devices.",
     "features": [
       "Responsive design",
-      "Project showcase",
-      "Contact form",
-      "Blog section",
-      "Dark mode toggle"
+      "ScrollReveal Animation",
+      "Modern UI and modern features",
+      "JS Sliders Used for Sliding Animation"
     ],
-    "image": "portfolio.jpg",
+    "image": "goldgym.jpg",
     "category": "frontend",
-    "tags": ["HTML", "CSS", "JavaScript", "React"],
-    "github": "https://github.com/yourusername/ecommerce-api",
-    "demo": "https://api.example.com/docs"
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/UjjwalN15/Gym-website",
+    "demo": "https://gym-website-seven-liard.vercel.app/",
+    "order": 8
   }
 ]

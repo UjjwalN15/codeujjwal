@@ -13,9 +13,12 @@ export default function Projects() {
 
   // Get filtered projects based on active tab
   const getFilteredProjects = () => {
-    return activeTab === "all" 
-      ? projects 
+    const filtered = activeTab === "all" 
+      ? [...projects]  // Create a copy of the array
       : projects.filter(project => project.category === activeTab);
+    
+    // Sort by order in ascending order (lowest order first)
+    return filtered.sort((a, b) => a.order - b.order);
   };
 
   // Calculate pagination data
@@ -67,7 +70,7 @@ export default function Projects() {
         viewport={{ once: true }}
         className="flex justify-center mb-10 gap-2 flex-wrap"
       >
-        {['all', 'backend', 'frontend', 'seo'].map((tab) => (
+        {['all', 'backend', 'frontend', 'fullstack'].map((tab) => (
           <motion.button
             key={tab}
             onClick={() => setActiveTab(tab)}
@@ -107,14 +110,14 @@ export default function Projects() {
                   <div className="h-full flex flex-col p-6">
                     <div className="flex-grow">
                       <h4 className="font-semibold mb-2 text-red-500">Description:</h4>
-                      <p className="text-gray-300 mb-4">{project.description}</p>
+                      <p className="text-gray-300 md:text-[0.8rem] mb-4">{project.description}</p>
                       
                       {project.features && (
                         <>
                           <h4 className="font-semibold mb-2 text-red-500">Features:</h4>
                           <ul className="list-disc pl-5 mb-4 space-y-1 text-gray-300">
                             {project.features.map((feature, i) => (
-                              <li key={i} className="text-sm md:text-base">{feature}</li>
+                              <li key={i} className="text-sm md:text-base md:text-[0.8rem]">{feature}</li>
                             ))}
                           </ul>
                         </>
@@ -150,7 +153,7 @@ export default function Projects() {
                 <div className="h-full flex flex-col">
                   <div className="relative h-48 md:h-56 overflow-hidden rounded-t-lg">
                     <Image
-                      src={`/projects/${project.image}`}
+                      src={`/${project.image}`}
                       alt={project.title}
                       fill
                       className="object-cover"
