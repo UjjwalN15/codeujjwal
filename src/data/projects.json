@@ -43,7 +43,7 @@
       "Email Notifications to users for booking confirmations",
       "Private Project. Client has said not to share the code publicly."
     ],
-    "image": "hotel1.jpg",
+    "image": "hotel1.JPG",
     "category": "backend",
     "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
     "order": 3
@@ -62,7 +62,7 @@
       "Automated Email Alerts",
       "Internship Project. Please contact to our Project Manager for more details. +9779846828659"
     ],
-    "image": "filedigi1.jpg",
+    "image": "filedigi1.JPG",
     "category": "backend",
     "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
     "order": 4
@@ -78,7 +78,7 @@
       "Two apps: BASE (handles hospital operations) and IMS (manages inventory).",
       "Provides full system details to the admin"
     ],
-    "image": "hms1.jpg",
+    "image": "hms1.JPG",
     "category": "backend",
     "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
     "github": "https://github.com/UjjwalN15/HMS-new",
@@ -112,7 +112,7 @@
       "Role-based access for users and admins with JWT Authentication.",
       "Movie watchlist management with CRUD operations"
     ],
-    "image": "imdbjwt1.jpg",
+    "image": "imdbjwt1.JPG",
     "category": "backend",
     "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
     "github": "https://github.com/UjjwalN15/IMDB-wit-JWTAuthentication",
@@ -129,7 +129,7 @@
       "Modern UI and modern features",
       "JS Sliders Used for Sliding Animation"
     ],
-    "image": "goldgym.jpg",
+    "image": "goldgym.JPG",
     "category": "frontend",
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/UjjwalN15/Gym-website",
