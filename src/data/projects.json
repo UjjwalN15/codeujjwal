@@ -201,7 +201,7 @@
     "category": "frontend",
     "tags": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/UjjwalN15/Photo-Booth",
-    "link":"https://photo-booth-lime.vercel.app/",
+    "demo":"https://photo-booth-lime.vercel.app/",
     "order": 10
   },
   {
