@@ -32,6 +32,41 @@
     "order": 2
   },
   {
+    "id": 13,
+    "title": "Safari Advisor - Backend",
+    "shortDescription": "Advisor website backend in Python and Django Rest Framework",
+    "description": "A advisory platform built with Django and PostgreSQL. Features advanced admin panel customization using Jazzmin for better usability. Includes filtering and searching with django-filter, along with pagination for efficient data handling. Implements logging for error tracking and automated email functionality for notifications and user engagement.",
+    "features": [
+      "Jazzmin for admin panel customization",
+      "Django-filter for filtering and searching",
+      "Postgresql for database",
+      "Pagination",
+      "Email Sending Functationality"
+    ],
+    "image": "safari.JPG",
+    "category": "backend",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "demo": "https://safariadvisor.com.np/",
+    "order": 2
+  },
+  {
+    "id": 14,
+    "title": "Kathmandu Business Campus - Backend",
+    "shortDescription": "College website backend in Python and Django Rest Framework",
+    "description": "BA college system built with Django and PostgreSQL. Integrated TinyMCE for rich-text editing and django-filter for advanced search and filtering. Supports course filtering by semester, semester filtering by year, and year filtering by program (e.g., BIM). Includes automated email functionality for seamless communication and updates.",
+    "features": [
+      "Integrated TinyMCE for rich-text editing",
+      "postgresql for database",
+      "Email sending functatrionality",
+      "Searching and Filetring"
+    ],
+    "image": "kbc.JPG",
+    "category": "backend",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "demo": "https://kathmandubusinesscampus.edu.np/",
+    "order": 2
+  },
+  {
     "id": 3,
     "title": "Hotel Management System ",
     "shortDescription": "RESTful API for secure user authentication and efficient hotel and room booking management.",
@@ -135,5 +170,73 @@
     "github": "https://github.com/UjjwalN15/Gym-website",
     "demo": "https://gym-website-seven-liard.vercel.app/",
     "order": 8
+  },
+  {
+    "id": 9,
+    "title": "Google Login",
+    "shortDescription": "Login with Google Feature added in Django project",
+    "description": "This project is developed during my internship where I have use a feature of Login with Google. This is just a practice project.",
+    "features": [
+      "Login With Google"
+    ],
+    "image": "googlelogin.png",
+    "category": "backend",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
+    "github": "https://github.com/UjjwalN15/Login-With-Google",
+    "order": 9
+  },
+  {
+    "id": 10,
+    "title": "SHAY SHAY'S",
+    "shortDescription": "Frontend project developed using HTML, CSS and JS. This is a practice project.",
+    "description": "This is a responsive frontend project thai is developed using HTML, CSS and JS. DIfferent animations were used in this project and the images in the project have been placed using position property of CSS.",
+    "features": [
+      "Responsive Design",
+      "ScrollReveal Animation",
+      "JS Sliders Used for Sliding Animation",
+      "Position Property Used for Placing Images",
+      "CSS Flex Used for Flex Layout"
+    ],
+    "image": "shayshay.JPG",
+    "category": "frontend",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/UjjwalN15/Photo-Booth",
+    "link":"https://photo-booth-lime.vercel.app/",
+    "order": 10
+  },
+  {
+    "id": 11,
+    "title": "User Management System",
+    "shortDescription": "This is a fullstack project : backend in Python Django and frontend in HTML, CSS and JS.",
+    "description": "This is a User Management system where I divided users group into two category: one is enterprise user and other is normal user. An enterprise user can create , edit, delete view and like a post and change his/her password whereas a normal user can only view post, like post and change his/her password. This project was created in Django.",
+    "features": [
+      "Login Register Functationality",
+      "User Password reset and edit profiles",
+      "Enterprise User can create, edit, delete view and like a post",
+      "Normal User can view post, like post and change his/her password",
+      "Count likes and views. Like can be done once but can view multiple times"
+    ],
+    "image": "umgmt.JPG",
+    "category": "fullstack",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL","HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/UjjwalN15/User-management-Fullstack",
+    "order": 11
+  },
+  {
+    "id": 12,
+    "title": "College Viewer",
+    "shortDescription": "This is a fullstack project : backend in Python Django and frontend in HTML, CSS and JS.",
+    "description": "This is a fullstack project where I learned to extract the data from a csv file and store it in database using Django and Django Rest Framework, The frontend is simple yet I learned to use csv file in Django.",
+    "features": [
+      "Extracted college data from a csv file",
+      "Stored college data in database using Django",
+      "Used Django Rest Framework for backend",
+      "Used CSV file in Django"
+    ],
+    "image": "umgmt.JPG",
+    "category": "fullstack",
+    "tags": ["Python", "Django", "Django Rest Framework", "PostgreSQL","HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/UjjwalN15/College-Viewer",
+    "order": 12
   }
 ]
