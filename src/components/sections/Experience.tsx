@@ -5,10 +5,10 @@ import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 const experienceData = [
   {
     id: 1,
-    title: "Backend Developer Intern/ Trainee",
+    title: "Associate Backend Developer",
     company: "MindRisers Technology",
     type: "work",
-    date: "Oct-13,2024 - Present ",
+    date: "July-2024, July-2025",
     description: [
       "Developed scalable RESTful APIs using Django and Django REST Framework",
       "Implemented Redis caching to improve system performance and reduce response times",
