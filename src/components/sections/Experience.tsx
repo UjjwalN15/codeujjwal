@@ -36,7 +36,7 @@ export default function Experience() {
         viewport={{ once: true }}
         className="text-3xl md:text-4xl font-bold mb-10 text-center"
       >
-        My <span className="text-red-600">Experience</span>
+        My <span className="text-red-600">Experiences</span>
       </motion.h2>
 
       <div className="max-w-15xl relative">
