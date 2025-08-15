@@ -251,7 +251,7 @@
 
 "use client";
 
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
+import { motion, useMotionTemplate, useMotionValue, MotionStyle } from "framer-motion";
 import { ReactNode, useState } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -275,7 +275,7 @@ export function Card({
   const mouseY = useMotionValue(0);
   
   const handleMouseMove = (e: React.MouseEvent) => {
-    const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
+    const { left, top} = e.currentTarget.getBoundingClientRect();
     mouseX.set(e.clientX - left);
     mouseY.set(e.clientY - top);
   };
@@ -289,11 +289,29 @@ export function Card({
       onMouseMove={handleMouseMove}
     >
       {/* Gradient spotlight effect */}
-      <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+      {/* <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
         <div className="absolute inset-0 bg-gradient-radial from-red-500/10 via-transparent to-transparent" 
              style={{
                backgroundPosition: useMotionTemplate`${mouseX}px ${mouseY}px`
              }} />
+      </div> */}
+      {/* <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+        <motion.div
+          className="absolute inset-0 bg-gradient-radial from-red-500/10 via-transparent to-transparent"
+          style={{
+            backgroundPosition: useMotionTemplate`${mouseX}px ${mouseY}px` as any
+          }}
+        />
+      </div> */}
+      <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+        <motion.div
+          className="absolute inset-0 bg-gradient-radial from-red-500/10 via-transparent to-transparent"
+          style={
+            {
+              backgroundPosition: useMotionTemplate`${mouseX}px ${mouseY}px`
+            } as MotionStyle
+          }
+        />
       </div>
 
       {/* 3D Container */}
