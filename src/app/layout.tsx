@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   title: "Ujjwal Neupane",
   description: "Showcase of my work and skills",
   icons: {
-    icon: "/portfolio.png", // ✅ Favicon path
+    icon: "/unlogo.jpg"
   },
 };
 
